@@ -1,0 +1,81 @@
+<mjml>
+<mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" />
+    <mj-title>Email Assurance version 1</mj-title>
+    <mj-attributes>
+    </mj-attributes>
+    <mj-breakpoint width="480px" />
+</mj-head>
+    <mj-body>
+    <!--Image-->
+        <mj-section>
+            <mj-column>
+                <mj-image src="img/LetAssurance01_032024.jpg" alt="" />
+            </mj-column>          
+        </mj-section>
+    <!--Titre-->
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    Donnons-nous 
+                </mj-text>
+                <mj-text>
+                    les moyens de réussir
+                </mj-text>
+                <mj-text>
+                    Au salon de l'Apprentissage à Lille, {{PRENOM}}, tu as montré ton intérêt pour notre BTS Assurance en alternance. Ton profil a retenu toute notre attention. Aussi  nous te proposons de nous rencontrer pour un entretien de motivation afin de choisir au plus vite l'entreprise où tu accompliras ton alternance ! 
+                </mj-text>
+        <!--bouton-->        
+                <mj-button>
+                    contacte-moi
+                </mj-button>
+            </mj-column>
+        </mj-section>
+    <!--signature-->
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    Chrisitian Annaloro
+                </mj-text>
+                <mj-text>
+                    Responsable pédagogique
+                </mj-text>
+                <mj-text>
+                    Ecosup Assurance
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    <!--Adresse-->
+    <mj-section>
+        <mj-column>
+            <mj-image src="img/ECOSUP_CAMPUS_012024.png" alt="" />
+            <mj-text>
+                17 place Charles et Albert Roussel
+            </mj-text>
+            <mj-text>
+                59200 tourcoing
+            </mj-text>
+            <mj-text>
+                Tél. 03.20.70.06.06
+            </mj-text>
+            <mj-text>
+               contact@ecosup-campus.fr     
+            </mj-text>
+        </mj-column>
+    </mj-section>
+<!--Obligation réglementaire-->
+    <mj-section>
+        <mj-column>
+            <mj-text>
+                Pour être sûr(e) de recevoir nos communications, ajoute contact@ecosup-campus.fr dans ton carnet d'adresses.
+            </mj-text>
+            <mj-text>
+                Si tu ne visualise pas cet email correctement, clique ici
+            </mj-text>
+            <mj-text>
+                Pour te désinscrire de nos communications par courriel, clique ici
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    </mj-body>
+</mjml>
