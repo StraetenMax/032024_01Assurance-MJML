@@ -4,16 +4,28 @@
     <mj-title>Email Assurance version 1</mj-title>
     <mj-attributes>
         <mj-class name="text" font-family="Roboto, Arial, sans-serif" font-size="16px" font-weight="300" line-height="20px" color="#2D3748"/>
-        <mj-class name="footer" align="center" font-family="Roboto, Arial, sans-serif" font-size="12px" font-weight="400" line-height="14px" />
-        <mj-class name="reglement" align="center" font-family="Roboto, Arial, sans-serif" font-size="12px" font-weight="300" line-height="14px" />
+        <mj-class name="footer" align="center" font-family="Roboto, Arial, sans-serif" font-size="12px" font-weight="400" line-height="14px" color="#2D3748"/>
+        <mj-class name="reglement" align="center" font-family="Roboto, Arial, sans-serif" font-size="12px" font-weight="300" line-height="14px" color="#2D3748" />
     </mj-attributes>
-    <mj-breakpoint width="480px" />
+    <mj-breakpoint width="480px"/>
+    <mj-style>
+         .hover:hover td, .hover:hover a{ 
+            background-color:#684092 !important;
+            }
+
+             @media only screen and (max-width:480px) {
+            .MCpadding td{
+                padding-left:5px !important;
+                padding-right:4px !important;
+            }
+             }
+    </mj-style>
 </mj-head>
     <mj-body background-color="#fafafa" > 
     <!--Image-->
         <mj-section background-color="#ffffff" padding="0" >
             <mj-column padding="0">
-                <mj-image padding="0" width=600px src="img/LetAssurance01_032024.jpg" alt="lancer de pour fêter leur diplôme" />
+                <mj-image padding="0" width=600px src="img/LetAssurance01_032024.jpg" alt="lancer de chapeau pour fêter leur diplôme" />
             </mj-column>          
         </mj-section>
     <!--Titre-->
@@ -23,10 +35,10 @@
                     Donnons-nous les moyens de réussir
                 </mj-text>
                 <mj-text padding="6px 0 0 0" align="left" mj-class="text">
-                    Au salon de l'Apprentissage à Lille, {{ contact.PRENOM }}, tu as montré ton intérêt pour notre <span style="font-weight:700;">BTS Assurance en alternance</span>. Ton profil a retenu toute notre attention. Aussi nous te proposons de nous rencontrer pour un <span style="font-weight:700;">entretien de motivation</span> afin de choisir au plus vite l'entreprise où tu accompliras ton alternance ! 
+                    Au salon de l'Apprentissage à Lille, {{ contact.PRENOM }}, tu as montré ton intérêt pour notre <span style="font-weight:600;">BTS Assurance en alternance</span>. Ton profil a retenu toute notre attention. Aussi nous te proposons de nous rencontrer pour un <span style="font-weight:600;">entretien de motivation</span> afin de choisir au plus vite l'entreprise où tu accompliras ton alternance ! 
                 </mj-text>
         <!--bouton-->        
-                <mj-button padding="20px 0 0 0" align="center" font-family="Roboto, Arial, sans-serif" font-size="16px" font-weight="500" line-height="20px" color="#ffffff" background-color="#BA4995" >
+                <mj-button href="sms:+33616262619" padding="20px 0 0 0" align="center" font-family="Roboto, Arial, sans-serif" font-size="16px" font-weight="500" line-height="20px" color="#ffffff" background-color="#BA4995" css-class="hover">
                     contacte-moi
                 </mj-button>
             </mj-column>
@@ -55,12 +67,6 @@
             <mj-text padding="0" text-transform="uppercase" mj-class="footer">
                 59200 tourcoing
             </mj-text>
-            <mj-text padding="0" mj-class="footer">
-                Tél. 03.20.70.06.06
-            </mj-text>
-            <mj-text padding="0" mj-class="footer">
-               contact@ecosup-campus.fr     
-            </mj-text>
         </mj-column>
     </mj-section>
 <!--Obligation réglementaire-->
@@ -69,11 +75,11 @@
             <mj-text padding="0" mj-class="reglement">
                 Pour être sûr(e) de recevoir nos communications, ajoute contact@ecosup-campus.fr dans ton carnet d'adresses.
             </mj-text>
-            <mj-text padding="0" mj-class="reglement">
-                Si tu ne visualise pas cet email correctement, clique ici
+            <mj-text padding="0" mj-class="reglement"> 
+                Si tu ne visualise pas cet email correctement, clique <a href="{{ mirror }}">ici</a>
             </mj-text>
-            <mj-text padding="0" mj-class="reglement">
-                Pour te désinscrire de nos communications par courriel, clique ici
+            <mj-text padding="0" mj-class="reglement" text-transform="uppercase">
+                <a href="{{ unsubscribe }}">se désinscrire</a>
             </mj-text>
         </mj-column>
     </mj-section>
