@@ -4,8 +4,8 @@
     <mj-title>Email Assurance version 1</mj-title>
     <mj-attributes>
         <mj-class name="text" font-family="Roboto, Arial, sans-serif" font-size="16px" font-weight="300" line-height="20px" color="#2D3748"/>
-        <mj-class name="footer" align="center" font-family="Roboto, Arial, sans-serif" font-size="12px" font-weight="400" line-height="14px" color="#2D3748"/>
-        <mj-class name="reglement" align="center" font-family="Roboto, Arial, sans-serif" font-size="12px" font-weight="300" line-height="14px" color="#2D3748" />
+        <mj-class name="footer" align="center" font-family="Roboto, Arial, sans-serif" font-size="12px" font-weight="400" line-height="16px" color="#2D3748"/>
+        <mj-class name="reglement" align="center" font-family="Roboto, Arial, sans-serif" font-size="12px" font-weight="300" line-height="16px" color="#2D3748" />
     </mj-attributes>
     <mj-breakpoint width="480px"/>
     <mj-style>
@@ -14,9 +14,16 @@
             }
 
              @media only screen and (max-width:480px) {
-            .MCpadding td{
-                padding-left:5px !important;
-                padding-right:4px !important;
+            .Mcpadding td{
+                padding-left:6px !important;
+                padding-right:6px !important;
+            }
+            .Mspadding td{
+                padding-left:20px !important;
+                padding-right:20px !important;
+            }
+            .Mapadding div{
+                text-align:center !important;
             }
              }
     </mj-style>
@@ -30,11 +37,11 @@
         </mj-section>
     <!--Titre-->
         <mj-section background-color="#ffffff" padding="0">
-            <mj-column padding="10px 60px">
-                <mj-text padding="0" align="left" font-family="Roboto, Arial, sans-serif" font-size="26px" font-weight="700" line-height="30px" color="#684092">
+            <mj-column padding="10px 60px" css-class="Mcpadding">
+                <mj-text padding="0" align="left"  css-class="Mapadding" font-family="Roboto, Arial, sans-serif" font-size="26px" font-weight="700" line-height="30px" color="#684092">
                     Donnons-nous les moyens de réussir
                 </mj-text>
-                <mj-text padding="6px 0 0 0" align="left" mj-class="text">
+                <mj-text padding="6px 0 0 0" align="left" css-class="Mapadding" mj-class="text">
                     Au salon de l'Apprentissage à Lille, {{ contact.PRENOM }}, tu as montré ton intérêt pour notre <span style="font-weight:600;">BTS Assurance en alternance</span>. Ton profil a retenu toute notre attention. Aussi nous te proposons de nous rencontrer pour un <span style="font-weight:600;">entretien de motivation</span> afin de choisir au plus vite l'entreprise où tu accompliras ton alternance ! 
                 </mj-text>
         <!--bouton-->        
@@ -45,14 +52,14 @@
         </mj-section >
     <!--signature-->
         <mj-section background-color="#ffffff">
-            <mj-column padding="0px 60px 30px 300px">
-                <mj-text padding="0" align="left" mj-class="text">
-                    Chrisitian <span style="text-transform:uppercase;">Annaloro</span>
+            <mj-column padding="0px 60px 30px 300px" css-class="Mspadding Mapadding">
+                <mj-text css-class="Mapadding" padding="0" align="left" mj-class="text">
+                    Christian <span style="text-transform:uppercase;">Annaloro</span>
                 </mj-text>
-                <mj-text padding="0" align="left" mj-class="text">
+                <mj-text css-class="Mapadding" padding="0" mj-class="text" align="left">
                     Responsable pédagogique
                 </mj-text>
-                <mj-text padding="0" align="left" mj-class="text">
+                <mj-text css-class="Mapadding" padding="0" mj-class="text" align="left" >
                     Ecosup Assurance
                 </mj-text>
             </mj-column>
@@ -60,7 +67,7 @@
     <!--Adresse-->
     <mj-section>
         <mj-column>
-            <mj-image align="center" width="180px" padding="0" src="img/ECOSUP_CAMPUS_012024.png" alt="logo Ecosup Campus" />
+            <mj-image align="center" width="140px" padding="0" src="img/ECOSUP_CAMPUS_012024.png" alt="logo Ecosup Campus" />
             <mj-text padding="0"  mj-class="footer">
                 17 place Charles et Albert Roussel
             </mj-text>
@@ -71,7 +78,7 @@
     </mj-section>
 <!--Obligation réglementaire-->
     <mj-section>
-        <mj-column padding="0 60px">
+        <mj-column padding="0 60px" css-class="MCpadding">
             <mj-text padding="0" mj-class="reglement">
                 Pour être sûr(e) de recevoir nos communications, ajoute contact@ecosup-campus.fr dans ton carnet d'adresses.
             </mj-text>
