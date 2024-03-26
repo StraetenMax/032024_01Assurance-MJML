@@ -67,7 +67,7 @@
     <!--Adresse-->
     <mj-section>
         <mj-column>
-            <mj-image align="center" width="140px" padding="0" src="img/ECOSUP_CAMPUS_012024.png" alt="logo Ecosup Campus" />
+            <mj-image align="center" width="140px" padding="0" src="https://img.mailinblue.com/3403292/images/content_library/original/65ffed0f9d8a3bdbe17813ef.png" alt="logo Ecosup Campus" />
             <mj-text padding="0"  mj-class="footer">
                 17 place Charles et Albert Roussel
             </mj-text>
