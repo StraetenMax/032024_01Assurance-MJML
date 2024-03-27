@@ -42,10 +42,10 @@
                     Donnons-nous les moyens de réussir
                 </mj-text>
                 <mj-text padding="6px 0 0 0" align="left" css-class="Mapadding" mj-class="text">
-                    Au salon de l'Apprentissage à Lille, {{ contact.PRENOM }}, tu as montré ton intérêt pour notre <span style="font-weight:600;">BTS Assurance en alternance</span>. Ton profil a retenu toute notre attention. Aussi nous te proposons de nous rencontrer pour un <span style="font-weight:600;">entretien de motivation</span> afin de choisir au plus vite l'entreprise où tu accompliras ton alternance ! 
+                    Sur Parcoursup, {{ contact.PRENOM }}, tu as montré ton intérêt pour notre <span style="font-weight:600;">BTS Assurance en alternance</span>. Ton profil a retenu toute notre attention. Aussi nous te proposons de nous rencontrer pour un <span style="font-weight:600;">entretien de motivation</span> afin de choisir au plus vite l'entreprise où tu accompliras ton alternance ! 
                 </mj-text>
         <!--bouton-->        
-                <mj-button href="sms:+33616262619" padding="20px 0 0 0" align="center" font-family="Roboto, Arial, sans-serif" font-size="16px" font-weight="500" line-height="20px" color="#ffffff" background-color="#BA4995" css-class="hover">
+                <mj-button href="https://forms.gle/G2QPUfQa4gmE4i567" padding="20px 0 0 0" align="center" font-family="Roboto, Arial, sans-serif" font-size="16px" font-weight="500" line-height="20px" color="#ffffff" background-color="#BA4995" css-class="hover">
                     contacte-moi
                 </mj-button>
             </mj-column>
