@@ -32,7 +32,7 @@
     <!--Image-->
         <mj-section background-color="#ffffff" padding="0" >
             <mj-column padding="0">
-                <mj-image padding="0" width=600px src="img/LetAssurance01_032024.jpg" alt="lancer de chapeau pour fêter leur diplôme" />
+                <mj-image padding="0" width=600px src="https://img.mailinblue.com/3403292/images/content_library/original/66050a07e052b00d4ef96a62.jpg" alt="lancer de chapeau pour fêter leur diplôme" />
             </mj-column>          
         </mj-section>
     <!--Titre-->
